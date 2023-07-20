@@ -2,64 +2,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Work Sans", sans-serif;
 }
 
 /* <!-- nav section CSS start from here  --> */
 
 .header-nav-section {
-    display: flex;
-    justify-content: space-around;
-    background: #fff;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    align-items: center;
-    padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  padding: 20px 0px;
 }
 
 .main-logo {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .main-logo h2 {
-    text-align: center;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .main-logo span {
-    color: #ff42a5;
+  color: #ff42a5;
 }
 
 .nav-item-list {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
 }
 
 .nav-item-list li {
-    color: #3c354f;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .follow-us {
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.1);
-    padding: 3px 8px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 3px 8px;
 }
 
 .fa-youtube {
-    color: red;
-    padding: 0 5px;
+  color: red;
+  padding: 0 5px;
 }
 
 /* <!-- nav section end --> */
@@ -67,256 +67,257 @@
 /* <!-- banner section CSS start from here  --> */
 
 .banner-area {
-    margin-top: 50px;
-  }
-  
-  .banner-container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .banner-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .banner-text h3 {
-    color: #0b0223;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  
-  .banner-text h2 {
-    text-align: center;
-    font-size: 95px;
-    font-style: normal;
-    font-weight: 800;
-    text-transform: uppercase;
-  
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .banner-text p {
-    color: #534c64;
-    text-align: left;
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: lowercase;
-    margin-bottom: 10px;
-  }
-  
-  .sing-ing {
-    padding: 12px 25px;
-    border: none;
-    font-size: 16px;
-    border-radius: 50px;
-    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-    color: #fff;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
-  .btn-second {
-    background: #4ec5f7;
-    padding: 12px 25px;
-    border: none;
-    font-size: 16px;
-    border-radius: 50px;
-    color: #fff;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
-  /* <!-- banner section end --> */
+  margin-top: 50px;
+}
 
-  /* <!-- Gaming section CSS start from here --> */
+.banner-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-text h3 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-text h2 {
+  text-align: center;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-text p {
+  color: #534c64;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+
+.sing-ing {
+  padding: 12px 25px;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-second {
+  background: #4ec5f7;
+  padding: 12px 25px;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* <!-- banner section end --> */
+
+/* <!-- Gaming section CSS start from here --> */
 
 .gaming-section {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .gaming-container {
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
-  }
-  
-  /* .game-img{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gaming-container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+/* .game-img{
     width: 50%;
   
   } */
-  
-  .gaming-content {
-    /* width: 50%; */
-    text-align: right;
-  }
-  
-  .gaming-content h3 {
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .gaming-content p {
-    color: #534c64;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  /* <!-- Gaming section end --> */
+
+.gaming-content {
+  /* width: 50%; */
+  text-align: right;
+}
+
+.gaming-content h3 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gaming-content p {
+  color: #534c64;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* <!-- Gaming section end --> */
 
 /* <!-- Online Games section start from here -->  */
 
 .online-games-container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .online-games-item {
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  .online-games-heading {
-    font-size: 48px;
-  }
-  
-  .online-games-heading span {
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .online-games-heading p {
-    color: #534c64;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  
-  .video-area-item {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  .video-watch img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .video-watch {
-    flex-basis: calc(25%) -1rem;
-    position: relative;
-  }
-  
-  .hover-img {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-  }
-  
-  .hover-img img {
-    display: block;
-    margin: 0.8rem auto;
-  }
-  
-  .video-watch:hover .watch-img {
-    -webkit-filter: brightness(30%);
-    transition: 0.5s ease-in-out;
-  }
-  
-  .video-watch:hover .hover-img {
-    display: block;
-    color: #f948b2;
-    font-weight: 500;
-    transition: 0.4s ease-in-out;
-  }
-  
-  .watch-des {
-    color: #534c64;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: left;
-  }
-  
-  /* Online Games section end */
-  
-  /* <!-- Overlay section CSS start from here --> */
-  
-  .anniversary {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .anniversary-container {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 200px;
-  }
-  
-  .anniversary-content {
-    text-align: right;
-  }
-  
-  .anniversary-header {
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
-    /* 125% */
-  }
-  
-  .play {
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .anniversary-des {
-    color: #534c64;
-    text-align: right;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 15px;
-  }
-  
-  .anniversary img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .small-img img {
-    width: 50%;
-    height: auto;
-    position: relative;
-    right: 140px;
-    top: -140px;
-  }  
-  /* <!-- Overlay section end here --> */
+  width: 80%;
+  margin: 0 auto;
+}
 
-  /* <!-- career section CSS start from here--> */
+.online-games-item {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.online-games-heading {
+  font-size: 48px;
+}
+
+.online-games-heading span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-games-heading p {
+  color: #534c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.video-area-item {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.video-watch img {
+  max-width: 100%;
+  height: auto;
+}
+
+.video-watch {
+  flex-basis: calc(25%) -1rem;
+  position: relative;
+}
+
+.hover-img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.hover-img img {
+  display: block;
+  margin: 0.8rem auto;
+}
+
+.video-watch:hover .watch-img {
+  -webkit-filter: brightness(30%);
+  transition: 0.5s ease-in-out;
+}
+
+.video-watch:hover .hover-img {
+  display: block;
+  color: #f948b2;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+}
+
+.watch-des {
+  color: #534c64;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Online Games section end */
+
+/* <!-- Overlay section CSS start from here --> */
+
+.anniversary {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.anniversary-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+}
+
+.anniversary-content {
+  text-align: right;
+}
+
+.anniversary-header {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  /* 125% */
+}
+
+.play {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.anniversary-des {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.anniversary img {
+  width: 100%;
+  height: auto;
+}
+
+.small-img img {
+  width: 50%;
+  height: auto;
+  position: relative;
+  right: 140px;
+  top: -140px;
+}
+
+/* <!-- Overlay section end here --> */
+
+/* <!-- career section CSS start from here--> */
 
 .career-section {
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
@@ -416,3 +417,88 @@ ul .career-item {
 }
 
 /* <!-- categories section end--> */
+/*  <!-- Footer Section CSS start from here -->  */
+
+footer {
+  background: #0b0223;
+}
+
+.main-footer-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px;
+  color: white;
+}
+
+.footer-container {
+  /* margin: 100px 20px 0px 0px; */
+  padding: 100px auto;
+}
+
+.footer-logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-logo h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer-logo span {
+  color: #f948b2;
+}
+
+/* footer nav style  */
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* social icon  */
+.social-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 60px;
+}
+
+.social-a i {
+  font-size: 25px;
+}
+
+.footer-second-nav {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 30px;
+  font-weight: 400;
+
+}
+
+.copyright-area {
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* <!-- END --> */
