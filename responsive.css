@@ -1,0 +1,134 @@
+
+@media screen and (min-width: 572px) and (max-width: 768px) {
+    .banner-content{
+        flex-direction: column-reverse;
+    }
+    .gaming-container{
+        flex-direction: column;
+    } 
+}
+
+
+
+@media only screen and (max-width: 572px){
+    /* nav section */
+    .nav-item-list, .header-nav-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+/* banner, Gaming, Online Game section CSS */
+
+    .banner-text h3{
+        font-size: 30px;
+    }
+    .banner-text h2{
+        font-size: 70px;
+        margin-bottom: 15px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
+    .banner-content{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .game-img img {
+        width: 100%;
+        height: auto;
+    }
+    .gaming-container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .gaming-content, .sing-ing {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+
+    /* Overlay section */
+    .anniversary-container {
+        margin-top: 60px;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .anniversary-des{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .small-img img{
+        right: 25px;
+        top: -100px;
+    }
+
+/* career, categories section  */
+    .career-container{
+        flex-direction: column;
+        /* width: 60%; */
+
+    }
+    .career-content-desc {
+        width: 100%;
+    }
+    .career-img{
+        width: 100%;
+    }
+
+    .categories-container{
+        width: 90%;
+    }
+    .categories-items{
+        flex-basis: 33%;
+        text-align: center;
+        align-items: center;
+    }
+    /* footer section  */
+    .footer-logo{
+        justify-content: center ;
+        width: 100%;
+    }
+    .footer-nav{
+        align-items: normal ;
+        width: auto;
+    }
+    .footer-nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .footer-container{
+        display: flex;
+    }
+    .main-footer-section{
+        width:auto;
+        height: auto;
+    }
+    .social-a{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 10px;
+        align-items: center;
+    }
+
+
+    /* Online Games section  */
+    .online-games-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .video-area-item{
+        flex-wrap: wrap;
+    }
+    .anniversary-header{
+        text-align: center;
+        font-size: 32px;
+        line-height:normal;
+    }
+    p.watch-des {
+        padding: 23px 0;
+    }
+}
