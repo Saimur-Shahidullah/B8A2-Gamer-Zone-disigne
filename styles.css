@@ -315,3 +315,104 @@
     top: -140px;
   }  
   /* <!-- Overlay section end here --> */
+
+  /* <!-- career section CSS start from here--> */
+
+.career-section {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding: 50px 0px;
+}
+
+.career-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.career-container img {
+  width: 100%;
+}
+
+.career-content-desc {
+  color: white;
+  width: 50%;
+}
+
+.career-content-desc h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.career-content-desc p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.career-img {
+  width: 100%;
+}
+
+.career-item {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.career-item ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.career-item li {
+  margin-top: 20px;
+}
+
+ul .career-item {
+  text-align: right;
+}
+
+.career-btn {
+  margin-top: 20px;
+  padding: 21px 40px;
+  gap: 10px;
+  border-radius: 48px;
+  background: #fff;
+  border: none;
+  color: #f948b2;
+  font-size: 18px;
+}
+
+/* <!-- career section end--> */
+
+/* <!-- categories section start from here --> */
+
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 18px;
+  margin: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.categories-items {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid transparent;
+}
+
+.categories-items:hover {
+  border: 1px solid #ff42a5;
+  color: #f948b2;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+/* <!-- categories section end--> */
